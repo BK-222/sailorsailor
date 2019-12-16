@@ -1,0 +1,60 @@
+/*Selector {
+	Property: value;
+}*/
+
+/* Selectors
+.class
+#id
+:hover
+:last-child
+:first:child
+
+Specificity
+Importance
+Source Order*/
+
+/*content > padding > border > margin
+*/
+
+/*rgb(232, 82, 187) - vivid pink (#E852BB)
+#F378CE - light pink
+#99F77B - lime
+#FFF95A - bright yellow*/
+
+body {
+	/*background-image: url(background.jpg);*/
+	background-size: cover;
+	background-color: #F378CE;
+}
+
+h2 {
+	color: #FFF95A;
+	text-align: center;
+	cursor: pointer;
+	border: 4px solid #99F77B;
+	margin: 25px 150px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #FFF95A;
+}
+
+img {
+	border: 5px solid rgb(232, 82, 187);
+	vertical-align: middle;
+}
+
+form {
+	font-family: 'Lato', sans-serif;
+	font-size: 80%;
+}
+
+.lima {
+	float: right;
+}
+
+.box {
+	border: 4px solid #99F77B;
+	margin: 50px 275px 0px 250px;
+}
